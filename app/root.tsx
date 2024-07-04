@@ -11,7 +11,7 @@ import stylesheet from "~/tailwind.css?url";
 import { LinksFunction } from "@remix-run/node";
 
 const stytch = createStytchUIClient(
-  "public-token-test-90242898-772e-4bd0-a184-378b7ffe8ed1"
+  "INSERT YOUR STYTCH PUBLIC TOKEN"
 );
 
 export const links: LinksFunction = () => [
